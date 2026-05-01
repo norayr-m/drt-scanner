@@ -45,6 +45,20 @@ open drt-scanner/index.html
 
 No build step. No server. No external dependencies beyond a modern browser. Audio is opt-in.
 
+## The trio — generator, cell simulator, scanner
+
+This repo is one of three that snap together into one workflow:
+
+1. **[drt-generator](https://github.com/norayr-m/drt-generator)** — produces sparse projection matrices from a clock tick.
+2. **[drt-cell-simulator](https://github.com/norayr-m/drt-cell-simulator)** — receives the projections as cellular automata on graph topology. Each cell is a *receptor* with local rules over its neighbours' edges.
+3. **drt-scanner** (this repo) — runs the transpose pass: projects a target signal back through the transposes of the same matrices, reports column-by-column whether the reverse pass agrees with the forward pass.
+
+End to end is *generator → cell simulator → scanner* — forward pass plus backward pass through the same matrices. Every step is sparse matrix-vector multiplication. The applied target is **bio digital twins** at tissue scale: the scanner's column-by-column inversion check is the honest answer to the inverse-modelling question — *can I attribute a measured tissue state to a known stimulus?* — telling you which regions of input space the digital twin is reliable for, and which it is not.
+
+This is a *diagnostic*, not a guarantee. It tells you at which step in the forward chain the inversion fails on a given configuration; it does not deliver a global inversion theorem. Bio digital twin users who need rigorous inverse-problem theory will need additional machinery (Tikhonov regularisation, posterior sampling, etc.) layered on top.
+
+Full write-up: **[Generator, Cell Simulator, Scanner — a sparse matrix-vector trio for bio digital twins](https://norayr-m.github.io/drt-generator/whitepaper.html)** ([markdown source](https://norayr-m.github.io/drt-generator/whitepaper.md)).
+
 ## Companion repository
 
 - **DRT_Generator** — the forward direction of the same 7-column pipeline. Read both side-by-side to see the symmetry.
