@@ -4,7 +4,7 @@
 
 The dual of the Generator. Where the Generator runs a signal *forward* through seven columns (phase → lookup → routing → weights → activation → hidden layers → wave assembly), the Scanner runs the same machinery *backward* — the signal flows from a master output back through the columns, exposing where the reconstruction is faithful and where it is not.
 
-**[Live demo →](https://norayr-m.github.io/drt-scanner/)**
+**[Live demo →](https://norayr-m.github.io/drt-scanner/)** &middot; **[White paper →](https://norayr-m.github.io/drt-scanner/whitepaper.html)** &middot; **[Trio paper →](https://norayr-m.github.io/drt-generator/whitepaper.html)**
 
 ## What it does
 
