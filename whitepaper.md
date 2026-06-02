@@ -2,7 +2,7 @@
 
 > **Humble disclaimer.** Amateur engineering project. We are not HPC professionals and make no competitive claims. Errors are likely. The scanner is a *diagnostic*, not a guarantee — see [What is not in the paper](#not).
 
-GPLv3.
+Apache 2.0.
 
 ---
 
@@ -117,4 +117,4 @@ Visualization co-authored with Claude (Anthropic).
 
 > **Humble disclaimer.** Amateur engineering project. We are not HPC professionals and make no competitive claims. Numbers speak; ego doesn't. Errors likely.
 
-GPLv3. See [`LICENSE`](LICENSE).
+Apache 2.0. See [`LICENSE`](LICENSE).
