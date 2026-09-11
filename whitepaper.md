@@ -109,7 +109,7 @@ End to end is *generator → cell simulator → scanner* — forward pass plus b
 
 Trio framing in detail: **[Generator, Cell Simulator, Scanner — a sparse matrix-vector trio for bio digital twins](https://norayr-m.github.io/drt-generator/whitepaper.html)** ([markdown source](https://norayr-m.github.io/drt-generator/whitepaper.md)).
 
-Distributed Reconstruction work — v0.1 in preparation by N. Matevosyan and A. Petrosyan.
+Distributed Reconstruction work — N. Matevosyan, work in progress.
 
 Visualization co-authored with Claude (Anthropic).
 

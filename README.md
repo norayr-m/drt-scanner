@@ -65,7 +65,7 @@ Full write-up: **[Generator, Cell Simulator, Scanner — a sparse matrix-vector 
 
 ## References
 
-- Distributed Reconstruction work — v0.1 in preparation, N. Matevosyan and A. Petrosyan.
+- Distributed Reconstruction work — N. Matevosyan, work in progress.
 
 Visualization co-authored with Claude (Anthropic).
 
