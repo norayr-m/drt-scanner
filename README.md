@@ -1,6 +1,6 @@
 # DRT Scanner — the 7-Column Inspection Pair
 
-> This is an amateur engineering project. We are not HPC professionals and make no competitive claims. Errors likely.
+> This is an amateur engineering project. The numbers here come from a single machine and a single family of runs, with no controlled benchmark: reproduce them with the script in this repository rather than taking them on trust. Errors likely.
 
 The dual of the Generator. Where the Generator runs a signal *forward* through seven columns (phase → lookup → routing → weights → activation → hidden layers → wave assembly), the Scanner runs the same machinery *backward* — the signal flows from a master output back through the columns, exposing where the reconstruction is faithful and where it is not.
 

@@ -1,6 +1,6 @@
 # DRT_Scanner — the inversion-fidelity diagnostic
 
-> **Humble disclaimer.** Amateur engineering project. We are not HPC professionals and make no competitive claims. Errors are likely. The scanner is a *diagnostic*, not a guarantee — see [What is not in the paper](#not).
+> **Humble disclaimer.** Amateur engineering project. The numbers here come from a single machine and a single family of runs, with no controlled benchmark: reproduce them with the script in this repository rather than taking them on trust. Errors are likely. The scanner is a *diagnostic*, not a guarantee — see [What is not in the paper](#not).
 
 Apache 2.0.
 
@@ -115,6 +115,6 @@ Visualization co-authored with Claude (Anthropic).
 
 ---
 
-> **Humble disclaimer.** Amateur engineering project. We are not HPC professionals and make no competitive claims. Numbers speak; ego doesn't. Errors likely.
+> **Humble disclaimer.** Amateur engineering project. The numbers here come from a single machine and a single family of runs, with no controlled benchmark: reproduce them with the script in this repository rather than taking them on trust. Numbers speak; ego doesn't. Errors likely.
 
 Apache 2.0. See [`LICENSE`](LICENSE).
